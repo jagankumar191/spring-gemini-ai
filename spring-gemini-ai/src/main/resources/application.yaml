@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-gemini-ai
+
+  ai:
+    model:
+      chat: google-genai
+    google:
+      genai:
+        api-key: AIzaSyCh8FDF7RQ3nyisHQhlbkuGuD-M2IOlJDU

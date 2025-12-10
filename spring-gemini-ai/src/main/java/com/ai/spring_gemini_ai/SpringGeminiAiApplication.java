@@ -1,0 +1,13 @@
+package com.ai.spring_gemini_ai;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringGeminiAiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringGeminiAiApplication.class, args);
+	}
+
+}
