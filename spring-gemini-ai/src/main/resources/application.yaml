@@ -7,4 +7,4 @@ spring:
       chat: google-genai
     google:
       genai:
-        api-key: AIzaSyCh8FDF7RQ3nyisHQhlbkuGuD-M2IOlJDU
+        api-key: ${{ secrets.GOOGLE_GENAI_APIKEY }}

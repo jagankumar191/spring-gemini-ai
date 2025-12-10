@@ -2,7 +2,8 @@
 // Configuration
 // ========================================
 const API_CONFIG = {
-    baseURL: 'http://localhost:8080',
+    // Use relative path for Docker (proxied by nginx), localhost for local development
+    baseURL: window.location.hostname === 'localhost' ? 'http://localhost:8080' : '',
     endpoint: '/api/ai/chat',
     timeout: 30000 // 30 seconds
 };
